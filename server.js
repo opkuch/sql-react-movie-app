@@ -1,9 +1,8 @@
-import path from 'path';
 
 const DBService = require('./services/DBService')
 const authService = require('./services/auth.service')
 const emailService = require('./services/email.service')
-
+const path = reuqire('path')
 const cookieParser = require('cookie-parser')
 const express = require('express')
 const cors = require('cors')
