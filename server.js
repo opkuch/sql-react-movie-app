@@ -1,3 +1,5 @@
+import path from 'path';
+
 const DBService = require('./services/DBService')
 const authService = require('./services/auth.service')
 const emailService = require('./services/email.service')
