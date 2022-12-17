@@ -12,7 +12,6 @@ const app = express()
 const MOVIES_TABLE = 'movies'
 const COMMENTS_TABLE = 'comments'
 
-app.use(express.static('public'))
 app.use(cookieParser())
 app.use(express.json())
 
